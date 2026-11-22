@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About Us - KSU Handmade Club</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div>
+            <img src="Logo.png" alt="KSU Handmade Club Logo">
+            <h1>KSU Handmade Club</h1>
+        </div>
+
+        <div>
+            <nav>
+                <a href="Hompage.html">Home</a>
+                <a href="ClubOfferings.html">Club Offerings</a>
+                <a href="MemberDashboard.html">Member Dashboard</a>
+                <a href="ManagerDashboard.html">Manager Dashboard</a>
+                <a href="AboutUs.html" class="active">About Us</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="wireframe-page">
+
+        <!-- Page Heading & Breadcrumb -->
+        <section class="page-title-section">
+            <p class="breadcrumb">
+                <a href="Hompage.html">Home</a> &gt; About us
+            </p>
+        </section>
+
+        <!-- Section 1: About KSU Handmade Club -->
+        <section class="about-intro-section">
+            <div class="about-intro-container">
+                <div class="about-intro-text">
+                    <h2>About KSU Handmade Club</h2>
+                    <p>
+                        KSU Handmade Club is a university-centred platform dedicated to bringing King Saud University students and passionate hobbyists together around manual arts and craftsmanship — crochet, pottery, sewing, and more.
+                    </p>
+                    <p>
+                        The club connects learners with skilled student instructors through organised workshops, classes, and creative experiences. Our positive mission is to foster creativity, support student wellbeing, and help relieve academic stress through hands-on artistic expression.
+                    </p>
+                    <p>
+                        Beyond teaching practical artisan skills, the club actively empowers talented students by providing a digital exhibition showcase where they can display their handmade pieces, receive peer recognition through community voting, and gain real opportunities to feature and sell their crafts at dedicated university bazaars and campus exhibitions.
+                    </p>
+                </div>
+                <div class="about-intro-image">
+                    <img src="Activity.jpg" alt="KSU Handmade Club Activities">
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2: Activity Leaders & Instructors (Exact Wireframe) -->
+        <section class="leaders-scroll-section">
+            <div class="section-container">
+                <span class="sub-title">OUR TEAM</span>
+                <h2>Activity Leaders &amp; Instructors</h2>
+                
+                <div class="horizontal-scroll-container">
+                    
+                    <!-- Instructor 1: Layan -->
+                    <div class="leader-item">
+                        <div class="photo-box">
+                            <img src="layan.jpg" alt="Layan Al-Otaibi">
+                        </div>
+                        <h3><a href="InstructorProfile-Layan.html">Layan Al-Otaibi</a></h3>
+                        <p class="role">Crochet &amp; Sewing</p>
+                        <p class="edu">B.Sc. Fashion Design - King Saud University (4th year)</p>
+                    </div>
+
+                    <!-- Instructor 2: Noura -->
+                    <div class="leader-item">
+                        <div class="photo-box">
+                            <img src="noura.jpg" alt="Noura Al-Harbi">
+                        </div>
+                        <h3><a href="InstructorProfile-Noura.html">Noura Al-Harbi</a></h3>
+                        <p class="role">Pottery &amp; Ceramics</p>
+                        <p class="edu">B.Sc. Industrial Design - King Saud University (4th year)</p>
+                    </div>
+
+                    <!-- Instructor 3: Reem -->
+                    <div class="leader-item">
+                        <div class="photo-box">
+                            <img src="reem.jpg" alt="Reem Al-Zahrani">
+                        </div>
+                        <h3><a href="InstructorProfile-Reem.html">Reem Al-Zahrani</a></h3>
+                        <p class="role">Fine Arts &amp; Painting</p>
+                        <p class="edu">B.Sc. Fine Arts - King Saud University (4th year)</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: Join Our Team Form (Exact Wireframe Layout) -->
+        <section class="wireframe-form-section">
+            <h2 class="section-join-title">Join Our Team</h2>
+
+            <form id="joinTeamForm" class="wireframe-form leader-add-form" action="#" method="post" enctype="multipart/form-data">
+
+                <div class="two-fields">
+                    <div>
+                        <label for="applicant-name">Full name</label>
+                        <input type="text" id="applicant-name" name="applicant-name" >
+                    </div>
+
+                    <div>
+                        <label for="applicant-dob">Date of birth</label>
+                        <input type="date" id="applicant-dob" name="applicant-dob" >
+                    </div>
+                </div>
+
+                <label for="applicant-email">Email address</label>
+                <input type="email" id="applicant-email" name="applicant-email" >
+
+                <label for="applicant-photo">Profile photo</label>
+                <input type="file" id="applicant-photo" name="applicant-photo" accept="image/*" >
+
+                <label for="applicant-expertise">Area of expertise</label>
+                <input type="text" id="applicant-expertise" name="applicant-expertise" >
+
+                <label for="applicant-skills">Skills</label>
+                <input type="text" id="applicant-skills" name="applicant-skills" >
+
+                <label for="applicant-education">Education</label>
+                <input type="text" id="applicant-education" name="applicant-education" >
+
+                <div class="form-button-row">
+                    <button type="submit">Submit application</button>
+                </div>
+
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div>
+            <div class="footer-logo">
+                <img src="Logo.png" alt="KSU Handmade Club Logo">
+                <h3>KSU Handmade Club</h3>
+            </div>
+            <p>
+                Fostering creativity, wellbeing, and entrepreneurship
+                among King Saud University students through the art of making.
+            </p>
+        </div>
+
+        <div>
+            <h3>Pages</h3>
+            <ul>
+                <li><a href="Hompage.html">Home</a></li>
+                <li><a href="ClubOfferings.html">Club Offerings</a></li>
+                <li><a href="MemberDashboard.html">Member Dashboard</a></li>
+                <li><a href="ManagerDashboard.html">Manager Dashboard</a></li>
+                <li><a href="AboutUs.html">About Us</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>Contact</h3>
+            <p>handmade@ksu.edu.sa</p>
+            <p>Student Activities Centre Building 45</p>
+            <p>+966 11 467 0000</p>
+            <p>Sun-Thu</p>
+        </div>
+
+        <div class="footer-credit">
+            <p>
+                &copy; 2026 KSU Handmade Club &mdash;
+                King Saud University, Riyadh, Saudi Arabia.
+                All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+   <script src="home.js"></script>
+   <script src="aboutus.js"></script>
+</body>
+</html>

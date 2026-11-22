@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Add New Offering - KSU Handmade Club</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body class="manager-page">
+
+<!-- Header -->
+<header>
+    <div>
+        <img src="Logo.png" alt="KSU Handmade Club Logo">
+        <h1>KSU Handmade Club</h1>
+    </div>
+
+    <div>
+        <nav>
+            <a href="Hompage.html">Home</a>
+            <a href="ClubOfferings.html">Club Offerings</a>
+            <a href="MemberDashboard.html">Member Dashboard</a>
+            <a href="ManagerDashboard.html" class="active">Manager Dashboard</a>
+            <a href="AboutUs.html">About Us</a>
+        </nav>
+    </div>
+</header>
+
+<main class="wireframe-page">
+
+    <!-- Page Heading -->
+    <section class="page-title-section">
+
+        <!-- Breadcrumbs -->
+        <p class="breadcrumb">
+            <a href="Hompage.html">Home</a> &gt;<a href="ManagerDashboard.html"> Manager Dashboard </a>&gt; Add New Offering
+        </p>
+
+        <h2>Add new offering</h2>
+
+    </section>
+
+    <!-- Add Offering Form -->
+    <section class="wireframe-form-section">
+
+        <form id="addOfferingForm" class="wireframe-form" action="#" method="post" enctype="multipart/form-data">
+
+            <label for="offering-name">Offering Name</label>
+            <input type="text" id="offering-name" name="offering-name" >
+
+            <label for="offering-image">Image</label>
+            <input type="file" id="offering-image" name="offering-image" accept="image/*" >
+
+            <label for="offering-price">Price / Registration Fee (SAR)</label>
+            <input type="text" id="offering-price" name="offering-price" placeholder="0 for a free offering">
+
+            <label for="offering-description">Description</label>
+            <textarea id="offering-description" name="offering-description" rows="4" ></textarea>
+
+            <div class="form-button-row">
+                <button type="submit">Submit</button>
+            </div>
+
+        </form>
+
+    </section>
+
+</main>
+
+<!-- Footer -->
+<footer>
+
+    <div>
+        <div class="footer-logo">
+            <img src="Logo.png" alt="KSU Handmade Club Logo">
+            <h3>KSU Handmade Club</h3>
+        </div>
+
+        <p>
+            Fostering creativity, wellbeing, and entrepreneurship
+            among King Saud University students through the
+            art of making.
+        </p>
+    </div>
+
+    <div>
+        <h3>Pages</h3>
+        <ul>
+            <li><a href="Hompage.html">Home</a></li>
+            <li><a href="ClubOfferings.html">Club Offerings</a></li>
+            <li><a href="MemberDashboard.html">Member Dashboard</a></li>
+            <li><a href="ManagerDashboard.html">Manager Dashboard</a></li>
+            <li><a href="AboutUs.html">About Us</a></li>
+        </ul>
+    </div>
+
+    <div>
+        <h3>Contact</h3>
+        <p>handmade@ksu.edu.sa</p>
+        <p>Student Activities Centre Building 45</p>
+        <p>+966 11 467 0000</p>
+        <p>Sun-Thu</p>
+    </div>
+
+    <div class="footer-credit">
+        <p>
+            &copy; 2026 KSU Handmade Club &mdash;
+            King Saud University, Riyadh, Saudi Arabia.
+            All rights reserved.
+        </p>
+    </div>
+
+</footer>
+
+<script src="home.js"></script>
+<script src="addoffering.js"></script>
+</body>
+</html>

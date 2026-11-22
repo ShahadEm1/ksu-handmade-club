@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Manager Dashboard - KSU Handmade Club</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body class="manager-page">
+
+<header>
+    <div>
+        <img src="Logo.png" alt="KSU Handmade Club Logo">
+        <h1>KSU Handmade Club</h1>
+    </div>
+    <div>
+        <nav>
+            <a href="Hompage.html">Home</a>
+            <a href="ClubOfferings.html">Club Offerings</a>
+            <a href="MemberDashboard.html">Member Dashboard</a>
+            <a href="ManagerDashboard.html" class="active">Manager Dashboard</a>
+            <a href="AboutUs.html">About Us</a>
+        </nav>
+    </div>
+</header>
+
+
+
+<main class="wireframe-page">
+
+   
+<section class="page-title-section">
+   <p class="breadcrumb"><a href="Hompage.html">Home</a> &gt; Manager Dashboard</p>
+             <h2>Manager Dashboard</h2>
+             <p>Manage offerings, team members, and club activities.</p>
+            
+</section>
+
+    <section class="dashboard-content">
+
+        <div class="dashboard-links">
+            <a href="AddOffering.html">
+                <span>Add New Offering</span>
+                <span>&rarr;</span> 
+            </a>
+
+            <a href="ManageLeaders.html">
+                <span>Manage Leaders &amp; Instructors</span> 
+                <span>&rarr;</span>
+            </a>
+        </div>
+
+
+        <h2>All Offerings</h2>
+
+        <div class="offerings-table-container">
+            <table class="offerings-table">
+                <thead>
+    <tr>
+        <th>Image</th>
+        <th>Offering Name</th>
+        <th>Description</th>
+        <th>Cost</th>
+    </tr>
+</thead>
+<tbody id="offeringsTableBody">
+    <tr>
+        <td><img src="Sewing.jpeg" alt="Beginner Sewing and Stitching Workshop"></td>
+        <td>Beginner Sewing and Stitching Workshop</td>
+        <td>Learn basic sewing and stitching techniques and explore creative handmade projects suitable for beginners.</td>
+        <td>50 SAR</td>
+    </tr>
+    <tr>
+        <td><img src="crochet.jpeg" alt="Beginner Crochet Workshop"></td>
+        <td>Beginner Crochet Workshop</td>
+        <td>Learn the fundamentals of crochet from scratch and complete your very own handmade granny square.</td>
+        <td>30 SAR</td>
+    </tr>
+</tbody>
+            </table>
+        </div>
+
+    </section>
+</main>
+
+<footer>
+    <div>
+        <div class="footer-logo">
+            <img src="Logo.png" alt="KSU Handmade Club Logo">
+            <h3>KSU Handmade Club</h3>
+        </div>
+        <p>
+            Fostering creativity, wellbeing, and entrepreneurship
+            among King Saud University students through the art of making.
+        </p>
+    </div>
+
+    <div>
+        <h3>Pages</h3>
+        <ul>
+            <li><a href="Hompage.html">Home</a></li>
+            <li><a href="ClubOfferings.html">Club Offerings</a></li>
+            <li><a href="MemberDashboard.html">Member Dashboard</a></li>
+            <li><a href="ManagerDashboard.html">Manager Dashboard</a></li>
+            <li><a href="AboutUs.html">About Us</a></li>
+        </ul>
+    </div>
+
+    <div>
+        <h3>Contact</h3>
+        <p>handmade@ksu.edu.sa</p>
+        <p>Student Activities Centre Building 45</p>
+        <p>+966 11 467 0000</p>
+        <p>Sun-Thu</p>
+    </div>
+
+    <div class="footer-credit">
+        <p>&copy; 2026 KSU Handmade Club &mdash;King Saud University, Riyadh, Saudi Arabia.All rights reserved.</p>
+    </div>
+</footer>
+
+
+<script src="home.js"></script>
+<script src="managerdashboard.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Club Offerings - KSU Handmade Club</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+
+<body class="club-offerings-page">
+
+    <!-- Header -->
+    <header>
+        <div>
+            <img src="Logo.png" alt="KSU Handmade Club Logo">
+            <h1>KSU Handmade Club</h1>
+        </div>
+
+        <div>
+            <nav>
+                <a href="Hompage.html">Home</a>
+                <a href="ClubOfferings.html" class="active">Club Offerings</a>
+                <a href="MemberDashboard.html">Member Dashboard</a>
+                <a href="ManagerDashboard.html">Manager Dashboard</a>
+                <a href="AboutUs.html">About Us</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Title -->
+    <section class="page-title-section">
+
+        <p class="breadcrumb">
+            <a href="Hompage.html">Home</a> &gt; Club Offerings
+        </p>
+
+        <h2>Club Offerings</h2>
+
+        <p>
+            Workshops, classes, and creative experiences led by
+            skilled student instructors. Something for every curiosity
+            &mdash; from beginner to advanced.
+        </p>
+
+    </section>
+
+    <main class="club-offerings-main">
+
+       
+<!-- Sorting Section -->
+<section class="offerings-sort">
+
+    <span>Sort by:</span>
+
+    <select id="sort-name" name="sort-name">
+        <optgroup label="Name">
+            <option value="" selected>Name</option>
+            <option value="az">A-Z</option>
+            <option value="za">Z-A</option>
+        </optgroup>
+    </select>
+
+    <select id="sort-price" name="sort-price">
+        <optgroup label="Price">
+            <option value="" selected>Price</option>
+            <option value="low-high">Low to High</option>
+            <option value="high-low">High to Low</option>
+        </optgroup>
+    </select>
+
+</section>
+
+
+        <!-- Club Offerings -->
+        <section class="offerings-grid">
+
+            <!-- Offering 1 -->
+            <article class="offering-card">
+
+                <div class="card-image-container">
+                    <span class="category-tag">Painting</span>
+                    <span class="price-tag">Free</span>
+                    <img src="painting.jpeg" alt="Painting Introductory Workshop">
+                </div>
+
+                <div class="card-content">
+
+                    <h3>Painting Introductory Workshop</h3>
+
+                    <p>
+                        Discover the expressive world of acrylic
+                        painting on canvas. Learn basic color mixing,
+                        brush techniques, and composition.
+                    </p>
+                    <p class="hover-info">Includes all art supplies, canvas, and a take-home palette!</p>
+
+                    <div class="card-footer">
+                        <span>with Noura Al-Harbi</span>
+                        <span class="price-text">0 SAR</span>
+                    </div>
+
+                    <a href="OfferingPage.html" class="request-btn">Request</a>
+
+                </div>
+            </article>
+
+            <!-- Offering 2 -->
+            <article class="offering-card">
+
+                <div class="card-image-container">
+                    <span class="category-tag">Crochet</span>
+                    <img src="crochet.jpeg" alt="Beginner Crochet Workshop">
+                </div>
+
+                <div class="card-content">
+
+                    <h3>Beginner Crochet Workshop</h3>
+
+                    <p>
+                        Learn the fundamentals of crochet from scratch.
+                        By the end of this 3-hour session you'll have
+                        completed your very own handmade granny square!
+                    </p>
+                    <p class="hover-info">All yarn and ergonomic crochet hooks are provided for use during the session.</p>
+
+                    <div class="card-footer">
+                        <span>with Layan Al-Otaibi</span>
+                        <span class="price-text">30 SAR</span>
+                    </div>
+
+                    <a href="OfferingPage.html" class="request-btn">Request</a>
+
+                </div>
+            </article>
+
+            <!-- Offering 3 -->
+            <article class="offering-card">
+
+                <div class="card-image-container">
+                    <span class="category-tag">Pottery</span>
+                    <img src="pottery.jpeg" alt="Pottery Wheel Introductory Class">
+                </div>
+
+                <div class="card-content">
+
+                    <h3>Pottery Wheel Introductory Class</h3>
+                    <p>
+                        Discover the meditative art of wheel-thrown
+                        pottery. Learn to shape your first bowl or cup.
+                        All materials and tools are provided.
+                    </p>
+                    <p class="hover-info">Glazing and kiln firing for your best piece are included in the ticket price!</p>
+
+                    <div class="card-footer">
+                        <span>with Reem Al-Zahrani</span>
+                        <span class="price-text">45 SAR</span>
+                    </div>
+
+                    <a href="OfferingPage.html" class="request-btn">Request</a>
+                </div>
+            </article>
+
+            <!-- Offering 4 -->
+            <article class="offering-card">
+
+                <div class="card-image-container">
+                    <span class="category-tag">Sewing</span>
+                    <img src="Sewing.jpeg" alt="Beginner Sewing and Stitching Workshop">
+                </div>
+
+                <div class="card-content">
+
+                    <h3>Beginner Sewing and Stitching Workshop</h3>
+
+                    <p>
+                        Learn basic sewing and stitching techniques
+                        and explore creative handmade projects
+                        suitable for beginners.
+                    </p>
+                    <p class="hover-info">Practice fabrics, threads, and starter sewing toolkits are provided!</p>
+
+                    <div class="card-footer">
+                        <span>with Layan Al-Otaibi</span>
+                        <span class="price-text">50 SAR</span>
+                    </div>
+
+                    <a href="OfferingPage.html" class="request-btn">Request</a>
+
+                </div>
+            </article>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+
+        <div>
+            <div class="footer-logo">
+                <img src="Logo.png" alt="KSU Handmade Club Logo">
+                <h3>KSU Handmade Club</h3>
+            </div>
+
+            <p>
+                Fostering creativity, wellbeing, and entrepreneurship
+                among King Saud University students through the
+                art of making.
+            </p>
+        </div>
+
+        <div>
+            <h3>Pages</h3>
+
+            <ul>
+                <li><a href="Hompage.html">Home</a></li>
+                <li><a href="ClubOfferings.html">Club Offerings</a></li>
+                <li><a href="MemberDashboard.html">Member Dashboard</a></li>
+                <li><a href="ManagerDashboard.html">Manager Dashboard</a></li>
+                <li><a href="AboutUs.html">About Us</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>Contact</h3>
+            <p>handmade@ksu.edu.sa</p>
+            <p>Student Activities Centre Building 45</p>
+            <p>+966 11 467 0000</p>
+            <p>Sun-Thu</p>
+        </div>
+
+        <div class="footer-credit">
+            <p>
+                &copy; 2026 KSU Handmade Club &mdash;
+                King Saud University, Riyadh, Saudi Arabia.
+                All rights reserved.
+            </p>
+        </div>
+
+    </footer>
+
+   <script src="home.js"></script>
+<script src="clubofferings.js"></script>
+</body>
+</html>

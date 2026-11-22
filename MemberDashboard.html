@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Member Dashboard - KSU Handmade Club</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body class="member-page">
+<header>
+<div> 
+    <img src="Logo.png" alt="KSU Handmade Club Logo">
+    <h1>KSU Handmade Club</h1>
+</div>
+
+<div>
+    <nav>
+        <a href="Hompage.html">Home</a>
+        <a href="ClubOfferings.html">Club Offerings</a>
+        <a href="MemberDashboard.html" class="active">Member Dashboard</a>
+        <a href="ManagerDashboard.html">Manager Dashboard</a>
+        <a href="AboutUs.html">About Us</a>
+    </nav>
+</div>
+</header>
+
+            <!--Page Title & Breadcrumb Section-->
+            <div class="page-title-section">
+                <p class="breadcrumb"><a href="Hompage.html">Home</a> &gt; Member Dashboard</p>
+                <h2>Member Dashboard</h2>
+                <p> Track your workshops, evaluate past experiences, and register for new offerings.</p>
+            </div>
+
+<main class="dashboard-main">
+
+
+            <!-- Flexbox -->
+            <section class="dashboard-actions">
+                <a href="RequestToJoin.html" class="action-card">
+                    <span>Request to join an Offering</span>
+                    <span>&rarr;</span>
+                </a>
+                <a href="EvaluateOffering.html" class="action-card">
+                    <span>Evaluate a past Offering</span>
+                    <span>&rarr;</span>
+                </a>
+            </section>
+
+            <!-- Participation History Table Section -->
+            <section class="history-section">
+                <h3>Participation History</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Offering</th>
+                            <th class="text-center">Request Date</th>
+                            <th class="text-center">Cost</th>
+                            <th class="text-center">Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Painting Introductory Workshop</td>
+                            <td class="text-center">10 Mar 2026</td>
+                            <td class="text-center">0 SAR</td>
+                            <td class="text-center">Completed</td>
+                        </tr>
+                        <tr>
+                            <td>Beginner Crochet Workshop</td>
+                            <td class="text-center">22 Mar 2026</td>
+                            <td class="text-center">30 SAR</td>
+                            <td class="text-center">Pending</td>
+                        </tr>
+                        <tr>
+                            <td>Pottery Wheel Introductory Class</td>
+                            <td class="text-center">15 Mar 2026</td>
+                            <td class="text-center">45 SAR</td>
+                            <td class="text-center">Declined</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+
+        <!--Footer-->
+        <footer>
+            <div>
+            <div class="footer-logo">
+                <img src="Logo.png" alt="KSU Handmade Club Logo">
+                <h3>KSU Handmade Club</h3>
+            </div>
+            <p>Fostering creativity, wellbeing, and entrepreneurship among
+               King Saud University students through the art of making.</p>
+        </div>
+
+        <div>
+            <h3>Pages</h3>
+            <ul>
+                <li><a href="Hompage.html">Home</a></li>
+                <li><a href="ClubOfferings.html">Club Offerings</a></li>
+                <li><a href="MemberDashboard.html">Member Dashboard</a></li>
+                <li><a href="ManagerDashboard.html">Manager Dashboard</a></li>
+                <li><a href="AboutUs.html">About Us</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>Contact</h3>
+            <p>handmade@ksu.edu.sa</p>
+            <p>Student Activities Centre Building 45</p>
+            <p>+966 11 467 0000</p>
+            <p>Sun-Thu</p>
+        </div>
+
+        <div class="footer-credit">
+            <p>&copy; 2026 KSU Handmade Club &mdash; King Saud University, Riyadh, Saudi Arabia. All rights reserved.</p>
+        </div>
+        </footer>
+<script src="home.js"></script>
+</body>
+</html>

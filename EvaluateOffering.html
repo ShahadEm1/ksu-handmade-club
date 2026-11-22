@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Evaluate a Past Offering - KSU Handmade Club</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+<header>
+<div> 
+    <img src="Logo.png" alt="KSU Handmade Club Logo">
+    <h1>KSU Handmade Club</h1>
+</div>
+
+<div>
+    <nav>
+        <a href="Hompage.html">Home</a>
+        <a href="ClubOfferings.html">Club Offerings</a>
+        <a href="MemberDashboard.html">Member Dashboard</a>
+        <a href="ManagerDashboard.html">Manager Dashboard</a>
+        <a href="AboutUs.html">About Us</a>
+    </nav>
+</div>
+</header>
+
+            <!--Page Title & Breadcrumb Section-->
+            <div class="page-title-section">
+                <p class="breadcrumb"><a href="Hompage.html">Home</a> &gt; <a href="MemberDashboard.html">Member dashboard</a> &gt; 
+            Offering Evaluation </p>
+                <h2>Evaluate a Past Offering</h2>
+            </div>
+
+<main class="dashboard-main">
+        <div class="form-container">
+            <form id="evaluateForm" action="#" method="POST">
+                
+                <p>
+                    <label for="offering">Select completed offering</label><br>
+                        <select id="offering" name="offering">
+                        <option value="" disabled selected hidden></option>
+                        <option>Painting Introductory Workshop</option>
+                    </select>
+                </p>
+
+<p class="rating-label">
+    <label>Rate your experience</label>
+</p>
+
+   <div class="star-rating">
+    <input type="radio" id="star1" name="rating" value="1">
+    <label for="star1" name="1 star">★</label>
+
+    <input type="radio" id="star2" name="rating" value="2">
+    <label for="star2" name="2 stars">★</label>
+
+    <input type="radio" id="star3" name="rating" value="3">
+    <label for="star3" name="3 stars">★</label>
+
+    <input type="radio" id="star4" name="rating" value="4">
+    <label for="star4" name="4 stars">★</label>
+
+    <input type="radio" id="star5" name="rating" value="5">
+    <label for="star5" name="5 stars">★</label>
+</div>
+
+                <p>
+                    <label for="feedback">Feedback</label><br>
+                    <input type="text" id="feedback" name="feedback">
+                </p>
+
+
+                <p class="text-center">
+                    <input type="submit" value="Submit" class="submit-btn">
+                </p>
+
+            </form>
+        </div>
+    </main>
+
+        <!--Footer-->
+        <footer>
+            <div>
+            <div class="footer-logo">
+                <img src="Logo.png" alt="KSU Handmade Club Logo">
+                <h3>KSU Handmade Club</h3>
+            </div>
+            <p>Fostering creativity, wellbeing, and entrepreneurship among
+               King Saud University students through the art of making.</p>
+        </div>
+
+        <div>
+            <h3>Pages</h3>
+            <ul>
+                <li><a href="Hompage.html">Home</a></li>
+                <li><a href="ClubOfferings.html">Club Offerings</a></li>
+                <li><a href="MemberDashboard.html">Member Dashboard</a></li>
+                <li><a href="ManagerDashboard.html">Manager Dashboard</a></li>
+                <li><a href="AboutUs.html">About Us</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>Contact</h3>
+            <p>handmade@ksu.edu.sa</p>
+            <p>Student Activities Centre Building 45</p>
+            <p>+966 11 467 0000</p>
+            <p>Sun-Thu</p>
+        </div>
+
+        <div class="footer-credit">
+            <p>&copy; 2026 KSU Handmade Club &mdash; King Saud University, Riyadh, Saudi Arabia. All rights reserved.</p>
+        </div>
+        </footer>
+
+       <script src="home.js"></script>
+       <script src="evaluateoffering.js"></script>
+</body>
+</html>
