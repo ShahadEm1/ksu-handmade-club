@@ -444,6 +444,12 @@ nav a.active {
     background-color: #2563eb;
 }
 
+#four .four-list .filter.active {
+    background-color: #2563eb;
+    border-color: #ffffff;
+    font-weight: 600;
+}
+
 #four .four-workshops {
     display: flex;
     flex-wrap: wrap;
