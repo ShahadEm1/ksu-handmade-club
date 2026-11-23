@@ -111,6 +111,53 @@
   }
 
   /* ==========================================================================
+     FILTER VOTE CARDS
+     ========================================================================== */
+  var filterButtons = document.querySelectorAll("#four .four-list .filter");
+  var voteCards = document.querySelectorAll("#four .four-workshops article");
+  var voteGrid = document.querySelector("#four .four-workshops");
+
+  if (filterButtons.length > 0 && voteCards.length > 0 && voteGrid) {
+    var emptyVoteMsg = document.createElement("p");
+    emptyVoteMsg.textContent = "No items in this category yet.";
+    emptyVoteMsg.style.display = "none";
+    emptyVoteMsg.style.color = "#ffffff";
+    emptyVoteMsg.style.width = "100%";
+    emptyVoteMsg.style.textAlign = "center";
+    voteGrid.appendChild(emptyVoteMsg);
+
+    for (var f = 0; f < filterButtons.length; f++) {
+      filterButtons[f].addEventListener("click", function () {
+        var chosen = this.value.toLowerCase();
+        var shown = 0;
+
+        for (var j = 0; j < filterButtons.length; j++) {
+          filterButtons[j].classList.remove("active");
+        }
+        this.classList.add("active");
+
+        for (var c = 0; c < voteCards.length; c++) {
+          var tag = voteCards[c].querySelector(".price-tag");
+          var cat = tag ? tag.textContent.trim().toLowerCase() : "";
+
+          if (chosen === "all" || cat === chosen) {
+            voteCards[c].style.display = "";
+            shown++;
+          } else {
+            voteCards[c].style.display = "none";
+          }
+        }
+
+        if (shown === 0) {
+          emptyVoteMsg.style.display = "block";
+        } else {
+          emptyVoteMsg.style.display = "none";
+        }
+      });
+    }
+  }
+
+  /* ==========================================================================
      PHONE MENU BUTTON 
      ========================================================================== */
   var header = document.querySelector("header");
